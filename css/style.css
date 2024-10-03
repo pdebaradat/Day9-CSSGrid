@@ -1,0 +1,142 @@
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+.nav {
+    list-style-type: none;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.nav li {
+    float: left
+}
+
+ul.nav li a {
+    display: block;
+    padding: 8px 16px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul.nav a:hover {
+    background-color: gray;
+    color: lightblue;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    background-color: lightblue;
+    color: black;
+}
+
+.nav-menu {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+.main-img {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+}
+
+.side-nav {
+    grid-column: 3 / span 1;
+    grid-row: 3 / span 3;
+    background-color: rgb(135, 250, 146);
+}
+
+.main-1 {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
+
+.supp-1 {
+    grid-column: 1 / span 1;
+    grid-row: 4;
+    background-color: rgb(135, 250, 146);
+}
+
+.supp-2 {
+    grid-column: 2 / span 1;
+    grid-row: 4;
+    background-color: rgb(135, 250, 146);
+}
+
+.main-2 {
+    grid-column: 1 / span 2;
+    grid-row: 5;
+}
+
+
+.grid-item2 {
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    background-color: #555;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.goob-head {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.nav-menu2 {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+}
+
+.goob-img1 {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 3;
+    background-color: black;
+}
+
+.goob-content {
+    grid-column: 2 / span 2;
+    grid-row: 3 / span 5;
+}
+
+.goob-img2 {
+    grid-column: 1 / span 1;
+    grid-row: 6 / span 3;
+    background-color: black;
+}
+
+.goob-mini1 {
+    grid-column: 2 / span 1;
+    grid-row: 8;
+}
+
+.goob-mini2 {
+    grid-column: 3 / span 1;
+    grid-row: 8;
+}
